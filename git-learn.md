@@ -91,5 +91,17 @@ IdentityFile ~/.ssh/your_pub
 git remote add origin git@github.com:dente9/remote.git  #远程仓库名,地址
 git branch -M main #重命名分支名字
 git push -u origin main # 远程仓库名,分支名字
- git pull origin main  # 远程仓库名, 远程分支名字:本地分支名字 相同可省略冒号后面部分
+git pull origin main  # 远程仓库名, 远程分支名字:本地分支名字 相同可省略冒号后面部分
+```
+
+## 分支
+
+```
+git branch #查看分支
+git branch name # 创建分支
+git checkout dev #切换分支
+git switch dev
+git merge dev #在主分支里面合并其他分支
+git branch -d dev # 删除合并后分支
+git branch -D dev # 强制删除分支,无论合并与否
 ```
