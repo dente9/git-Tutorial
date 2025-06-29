@@ -47,3 +47,21 @@ git reset
 - git reset  --soft 保留工作区和暂存区的所有内容
 - git reset --hard 丢弃工作区和暂存区的所有内容
 - git reset --mixed 默认模式 保留工作区内容,丢弃暂存区内容
+
+## 查看暂存区文件
+
+```
+git ls-files
+```
+
+## 查看所有操作
+
+```
+git reflog
+```
+
+## 查看差异diff
+
+- git diff  默认是查看工作区和暂存区之间的差异
+- git diff head 查看工作区和仓库之间的差异
+- git diff --cached 查看暂存区和版仓库之间的差异
