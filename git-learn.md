@@ -105,3 +105,10 @@ git merge dev #在主分支里面合并其他分支
 git branch -d dev # 删除合并后分支
 git branch -D dev # 强制删除分支,无论合并与否
 ```
+
+## 合并分支
+
+```
+git merge --abort
+
+```
